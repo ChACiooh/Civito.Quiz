@@ -5,9 +5,7 @@ import Cocoa
 //1번문제
 var array = [4, 5, 6, 7, 8]
 var sum:Int = 0
-for i in array{
-    sum += i
-}
+sum = array.reduce(0, +)
 print("\(sum)")
 
 
