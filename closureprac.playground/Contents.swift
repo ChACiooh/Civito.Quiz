@@ -2,6 +2,29 @@
 
 import Cocoa
 
+//1번문제
+var array = [4, 5, 6, 7, 8]
+var sum:Int = 0
+for i in array{
+    sum += i
+}
+print("\(sum)")
+
+
+
+//2번문제
+var array2:[Double] = [10.0, 20.0, 50.0, 60.0, 200.0]
+
+let Vat:Double = 1.1
+
+for i in 0...4{
+    array2[i] *= Vat
+}
+
+print(array))
+
+
+
 //3번문제
 var array = [1,2,3,4,5]
 
@@ -28,4 +51,11 @@ for (str,int) in dic {
 
 dic
 
+//5번문제
+var array  = [11 , 22 , 3 , 5 , 7]
 
+array.sorted{ (a:Int, b) -> Bool in
+    return a < b
+}
+
+print("\(array.sorted()[0])")
